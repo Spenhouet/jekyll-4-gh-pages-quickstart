@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "main.css",
+	"sources": [
+		"main.scss",
+		"_sass/_variables.scss"
+	],
+	"sourcesContent": [
+		"@import \"variables\";\n\nbody {\n  @extend %default-font;\n  line-height: 1.5;\n  color: #24292e;\n  background-color: #fff;\n}\n\na {\n  color: $link-text;\n  text-decoration: none;\n}\n\ncode,\npre {\n  @extend %code-font;\n  background-color: $code-bg;\n  color: #fff;\n  padding: 0.25em;\n  border-radius: 5px;\n}\n\n.content {\n  width: 45rem;\n  margin: 0 auto;\n}\n",
+		"// BACKGROUND COLORS\n////////////////////\n$code-bg: #1e2224 !default;\n\n// TEXT COLORS\n////////////////////\n$link-text: #259ef7 !default; // Color of links\n\n// FONTS\n////////////////////\n%default-font {\n  font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica,\n    Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\";\n  font-size: 15px;\n}\n\n%header-font {\n  @extend %default-font;\n  font-weight: bold;\n}\n\n%code-font {\n  font-family: Consolas, Menlo, Monaco, \"Lucida Console\", \"Liberation Mono\",\n    \"DejaVu Sans Mono\", \"Bitstream Vera Sans Mono\", \"Courier New\", monospace,\n    serif;\n  font-size: 12px;\n  line-height: 1.5;\n}\n"
+	],
+	"names": [],
+	"mappings": "AAEA,ACQA,IDRI,ACQU,CACZ,WAAW,CAAE,6IACgE,CAC7E,SAAS,CAAE,IAAI,CAChB,ADAD,ACOA,IDPI,CACJ,GAAG,ACMQ,CACT,WAAW,CAAE,6IAEN,CACP,SAAS,CAAE,IAAI,CACf,WAAW,CAAE,GAAG,CACjB,ADzBD,AAAA,IAAI,AAAC,CAEH,WAAW,CAAE,GAAG,CAChB,KAAK,CAAE,OAAO,CACd,gBAAgB,CAAE,IAAI,CACvB,AAED,AAAA,CAAC,AAAC,CACA,KAAK,CCJK,OAAO,CDKjB,eAAe,CAAE,IAAI,CACtB,AAED,AAAA,IAAI,CACJ,GAAG,AAAC,CAEF,gBAAgB,CCfR,OAAO,CDgBf,KAAK,CAAE,IAAI,CACX,OAAO,CAAE,MAAM,CACf,aAAa,CAAE,GAAG,CACnB,AAED,AAAA,QAAQ,AAAC,CACP,KAAK,CAAE,KAAK,CACZ,MAAM,CAAE,MAAM,CACf"
+}

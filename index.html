@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Jekyll 4 for GitHub pages template</title>
+    <link rel="stylesheet" href="/jekyll-4-gh-pages-quickstart/assets/css/main.css" />
+</head>
+
+<body>
+    <section class="content">
+        <h1 id="template-for-jekyll-4-with-github-pages">Template for Jekyll 4 with GitHub pages</h1>
+
+<h2 id="example-of-extra-plugin-support">Example of extra plugin support</h2>
+
+<p>Here an example of the timeago plugin which is not supported when using the out-of-the-box gh-pages plugin.</p>
+
+<ul>
+  <li>Original date - 2020-04-13T10:20:00Z</li>
+  <li>With timeago filter - 2 years and 1 month ago</li>
+</ul>
+
+<h2 id="example-for-sass-integration-in-jekyll">Example for Sass integration in Jekyll</h2>
+
+<p>You have two kinds of Sass files:</p>
+
+<ol>
+  <li>Main files, which you wish to be output as CSS files</li>
+  <li>Partials, which are used by main files in <code class="language-plaintext highlighter-rouge">@import</code> statements</li>
+</ol>
+
+<p>Main files are like pages – they go where you want them to be output, and they contain the YAML front matter (<code class="language-plaintext highlighter-rouge">---</code> lines) at the top. Partials are like hidden Jekyll data, so they go in an underscored directory, which defaults to <code class="language-plaintext highlighter-rouge">_sass</code>.</p>
+
+<p>You site might look like this:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>| - _sass
+    | - _typography.scss
+    | - _layout.scss
+    | - _colors.scss
+| - assets/css
+    | - main.scss
+    | - print.scss
+</code></pre></div></div>
+
+<p>And so on.</p>
+
+<p>The output, in your <code class="language-plaintext highlighter-rouge">_site</code> directory, would look like this:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>| - assets/css
+    | - main.css
+    | - print.css
+</code></pre></div></div>
+
+<p>Boom! Now you have just your SCSS/Sass converted over to CSS with all the proper inputs. See also <a href="https://jekyllrb.com/docs/assets/">assets section in Jekyll’s documentation</a>.</p>
+
+    </section>
+</body>
+
+</html>
