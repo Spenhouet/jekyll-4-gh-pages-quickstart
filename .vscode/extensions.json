@@ -1,0 +1,10 @@
+{
+    "recommendations": [
+        "streetsidesoftware.code-spell-checker",
+        "adamvoss.vscode-languagetool-en",
+        "davidanson.vscode-markdownlint",
+        "bierner.color-info",
+        "esbenp.prettier-vscode"
+    ],
+    "unwantedRecommendations": []
+}

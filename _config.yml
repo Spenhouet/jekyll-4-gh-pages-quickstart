@@ -1,0 +1,13 @@
+title: "Template for Jekyll 4 with GitHub pages"
+description: Template for Jekyll 4 with GitHub pages.
+author: Your Name
+email: yourmail@provider.com
+timezone: 'Europe/Berlin'
+baseurl: '/jekyll-4-gh-pages-quickstart'
+
+sass:
+  style: compressed  # possible values: nested expanded compact compressed
+  sass_dir: _sass
+
+plugins:
+  - jekyll-timeago

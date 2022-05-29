@@ -1,0 +1,30 @@
+---
+---
+
+@import "variables";
+
+body {
+  @extend %default-font;
+  line-height: 1.5;
+  color: #24292e;
+  background-color: #fff;
+}
+
+a {
+  color: $link-text;
+  text-decoration: none;
+}
+
+code,
+pre {
+  @extend %code-font;
+  background-color: $code-bg;
+  color: #fff;
+  padding: 0.25em;
+  border-radius: 5px;
+}
+
+.content {
+  width: 45rem;
+  margin: 0 auto;
+}
